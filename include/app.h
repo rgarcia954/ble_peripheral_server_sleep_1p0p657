@@ -56,8 +56,8 @@ enum appm_msg
  * Defines
  * --------------------------------------------------------------------------*/
 /* Hardware platforms */
-#define DEXCOM_HARDWARE				    0
-#define ONSEMI_HARDWARE				    1
+#define DEXCOM_HARDWARE				    1
+#define ONSEMI_HARDWARE				    0
 
 #define	APP_PLATFORM					DEXCOM_HARDWARE
 
@@ -198,11 +198,11 @@ enum appm_msg
  */
 #define VCC_BUCK_LDO_CTRL               VCC_BUCK
 
-/* The GPIO pin to use for TX when using the UART mode */
-#define UART_TX_GPIO                    (6)
+/** The GPIO pin to use for TX when using the UART mode */
+#define UART_TX_GPIO                    (5)
 
-/* The GPIO pin to use for RX when using the UART mode */
-#define UART_RX_GPIO                    (5)
+/** The GPIO pin to use for RX when using the UART mode */
+#define UART_RX_GPIO                    (6)
 
 /* The selected baud rate for the application when using UART mode */
 #define UART_BAUD       				(115200)
