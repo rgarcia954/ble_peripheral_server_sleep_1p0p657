@@ -2,8 +2,8 @@
  * Auto generated Run-Time-Environment Component Configuration File
  *      *** Do not modify ! ***
  *
- * Project: ble_peripheral_server_sleep
- * RTE configuration: ble_peripheral_server_sleep.rteconfig
+ * Project: ble_peripheral_server_sleep_1p0p657
+ * RTE configuration: ble_peripheral_server_sleep_1p0p657.rteconfig
 */
 #ifndef RTE_COMPONENTS_H
 #define RTE_COMPONENTS_H
